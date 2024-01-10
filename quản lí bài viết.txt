@@ -1,0 +1,25 @@
+Các thư viện cần thiết cho dự án web : 
+- Lombok : hỗ trợ phương thức cho lớp
+- spring framework mvc : phát  dự án spring mvc
+- jstl : hỗ trợ cú pháp jsp 
+- jdbc : lưu database 
+
+
+Các thành phần trong cấu trúc dự án:
+- config : chứa các lớp dùng để cấu hình
+- model : đại điện cấu trúc của dữ liệu tương tác với db
+- dto : data transfer object đại diện do dữ liệu của request hoặc response
+- service : chưa các logic xử lí yêu cầu từ controller gửi xuống
+- dao(repository) : data access object là nơi tương tác với cơ sở dữ liệu
+- controller : là nơi tiếp nhận yêu cầu từ client và điều hướng sang xử lí ở service
+- util : chứa các lớp hỗ trợ kết nối, validate, convert 
+
+
+Liệt  kê chức năng :
+1. CRUD bài viết
+2. Lọc bài viết theo tiêu đề hoặc nội dung 
+
+
+
+// Kiến thức về spring
+IOC - đảo ngược điều khiển - thành phần container là nơi tạo , quản lí, tổ chức cá Beans
